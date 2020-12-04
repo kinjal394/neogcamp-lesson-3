@@ -1,129 +1,76 @@
-<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Component Library</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>Home</title>
+    <link href="./css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Kinjal's Component Library</h1>
-    <p> I am attending neog.camp and i want to make a library which would make all my project look good and consistent.</p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>this is the biggest heading</h1>
-    <h2>this is the second biggest</h2>
-    <p>Let me show you the normal text.This is free flowing and will wrap at the end like a pragraph.</p>
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a href="#">Primary Link</a>
-    <a href="#">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <ul>
-        <li>Item first</li>
-        <li>Item second</li>
-        <li>Item third</li>
-    </ul>
-    <h3>unordered inline list</h3>
-    <ul>
-        <li>inline Item first</li>
-        <li>inline Item second</li>
-        <li>inline Item third</li>
-    </ul>
-    <h3>reverse ordered list</h3>
-
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-    <h3>ordered list</h3>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-
-    <nav>
-        <div>iAmDeveloper</div>
-        <ul>
-            <li>
-                <a href="#">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">I Am NEOGRAMMER !</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="./index.html">Home</a>
             </li>
-            <li>
-                <a href="#">poject</a>
+            <li class="list-item-inline">
+                <a class="link" href="./project.html">Poject</a>
             </li>
-            <li>
-                <a href="#">blog</a>
+            <li class="list-item-inline">
+                <a class="link" href="./blog.html">Blog</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h3>@header</h3>
-
-    <header>
-        <img src="images/heroimg.svg">
-        <h1>heading inside hero</h1>
+    <header class="hero ow">
+        <img class="hero-img" src="images/frontImg.svg">
+        <h1 class="hero-heading">I am Kinjal, an aspiring <span class="hero-inverted">web developer</span> </h1>
+        <p>Worked as a web developer at Havlogic Infotech</p>
 
     </header>
+    <section class="section">
+        <div class="container container-center">
+            <h1>technologies</h1>
+            <div>
+                <p><strong>Begineer: </strong>Mongo DB,NodeJS</p>
+                <p><strong>Intermediate: </strong>SQL,HTML,.Net C#</p>
+                <p><strong>Advance : </strong>SQL,HTML,Jquery</p>
+            </div>
 
-    <hr>
 
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
-
+        </div>
     </section>
-    <section>
-        <h3>off white section</h3>
-        <p>This will have off white background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+            <a href="#" class="link link-primary">Primary Link</a>
 
+        </div>
     </section>
+    <section class="section">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning..</p>
+            <a href="#" class="link link-primary">Primary Link</a>
 
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>some small heading inside footer</div>
-        <ul>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Github</li>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-heade">some small heading inside footer</div>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="#">Instagram</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="#">Twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="#">Github</a>
+            </li>
         </ul>
     </footer>
-
-
-
-
-
-
-
-
 
 </body>
 
